@@ -1,0 +1,5 @@
+C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.pdb

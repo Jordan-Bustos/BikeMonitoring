@@ -1,0 +1,7 @@
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Jordan\Desktop\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
