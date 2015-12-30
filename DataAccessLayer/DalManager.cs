@@ -20,27 +20,32 @@ namespace DataAccessLayer
 		{
 			List<Training> trainings = new List<Training>();
 
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(DateTime.Now, 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 10), 13, 23, 123, 90, 100, 45, "Nuageux"));
+			trainings.Add(new Training(new DateTime(2015, 12, 11), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 11, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 14), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 31), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 05, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 05, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 10), 13, 23, 123, 90, 100, 45, "Nuageux"));
+			trainings.Add(new Training(new DateTime(2015, 12, 11), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			trainings.Add(new Training(new DateTime(2015,12,11), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
 
 			return trainings;
 		}

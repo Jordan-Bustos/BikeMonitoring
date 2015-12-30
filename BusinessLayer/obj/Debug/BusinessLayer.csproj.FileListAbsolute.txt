@@ -7,3 +7,12 @@ C:\Users\Jordan\Desktop\BikeMonitoring\BusinessLayer\bin\Debug\EntitiesLayer.pdb
 C:\Users\Jordan\Desktop\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Jordan\Desktop\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\Jordan\Desktop\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\BikeMonitoring\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\BikeMonitoring\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\BikeMonitoring\BusinessLayer\bin\Debug\DataAccessLayer.dll
+E:\BikeMonitoring\BusinessLayer\bin\Debug\EntitiesLayer.dll
+E:\BikeMonitoring\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+E:\BikeMonitoring\BusinessLayer\bin\Debug\EntitiesLayer.pdb
+E:\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.pdb

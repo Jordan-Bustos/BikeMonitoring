@@ -72,14 +72,14 @@ namespace BusinessLayer
 			// We create a date tile format info (dfi) and a calendar (cal) for compare week of date later (in th switch case)
 			DateTimeFormatInfo dfi = DateTimeFormatInfo.CurrentInfo;
 			Calendar cal = dfi.Calendar;
-
+			
 			switch (Mode)
 			{
 				// **** week ****
 				case 1: 
 					trainings = from training
 								in trainings
-								orderby training.Day descending
+								orderby training.Day ascending
 								where	(
 											(training.Day.Year == DateTime.Now.Year)
 											&&
@@ -94,7 +94,7 @@ namespace BusinessLayer
 				case 2:
 					trainings = from training
 								in trainings
-								orderby training.Day descending
+								orderby training.Day ascending
 								where (
 											(training.Day.Year == DateTime.Now.Year)
 											&&
@@ -107,7 +107,7 @@ namespace BusinessLayer
 				case 3:
 					trainings = from training
 								in trainings
-								orderby training.Day descending
+								orderby training.Day ascending
 								where (
 											(training.Day.Year == DateTime.Now.Year)
 										)
@@ -118,16 +118,16 @@ namespace BusinessLayer
 				case 4:
 					trainings = from training
 								in trainings
-								orderby training.Day descending
+								orderby training.Day ascending
 								select training;
 					break;
 					
 							
 				default:
 					break;
-			}			
-			
-			return Trainings;
+			}
+
+			return trainings;
 		}
     }
 }

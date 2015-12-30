@@ -3,3 +3,7 @@ C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\Ent
 C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.csprojResolveAssemblyReference.cache
 C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.dll
 C:\Users\Jordan\Desktop\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.pdb

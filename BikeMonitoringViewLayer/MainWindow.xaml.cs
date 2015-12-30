@@ -22,12 +22,30 @@ namespace BikeMonitoringViewLayer
 	public partial class MainWindow : Window
 	{
 		/// <summary>
-		/// Main window
+		/// The training page
+		/// </summary>
+		private TrainingsPage _trainingPage;
+
+		/// <summary>
+		/// Main window constructor
 		/// </summary>
 		public MainWindow()
 		{
 			InitializeComponent();
-			lvTrainings.ItemsSource = BusinessManager.getTrainings();
+		}
+
+		/// <summary>
+		/// When we click on the button to go to the training page
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void bpGoToTrainingsPage_Click(object sender, RoutedEventArgs e)
+		{
+			_trainingPage = new TrainingsPage();
+			_trainingPage.Owner = this;
+			this.IsEnabled = false;
+			this.Visibility = System.Windows.Visibility.Hidden;
+			_trainingPage.Show();
 		}
 	}
 }
