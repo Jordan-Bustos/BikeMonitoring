@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using EntitiesLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,14 @@ namespace BikeMonitoringViewLayer
 		public TrainingsPage()
 		{
 			InitializeComponent();
+			LoadPage();
+		}
+
+		/// <summary>
+		/// Load the page
+		/// </summary>
+		private void LoadPage()
+		{
 			lvTrainings.ItemsSource = BusinessManager.getTrainings();
 		}
 
@@ -67,7 +76,23 @@ namespace BikeMonitoringViewLayer
 		/// <param name="e"></param>
 		private void MenuItem_Click_Delete_Training(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Supprimer d'entrainement");
+			if (lvTrainings.SelectedItem != null)
+			{
+				Training training = (lvTrainings.SelectedItem) as Training;
+				List<Training> trainings = new List<Training>();
+				trainings.Add(training);
+				BusinessManager.DeleteTraining(trainings);
+				
+				Refresh();
+			}
+		}
+
+		/// <summary>
+		/// Refresh the page
+		/// </summary>
+		private void Refresh()
+		{
+			LoadPage();
 		}
 	}
 }

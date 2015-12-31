@@ -129,5 +129,14 @@ namespace BusinessLayer
 
 			return trainings;
 		}
-    }
+
+		/// <summary>
+		/// Remove trainings
+		/// </summary>
+		/// <param name="training">Trainings to remove</param>
+		public static void DeleteTraining(List<Training> trainings)
+		{
+			Trainings = Trainings.Except(trainings);
+		}
+	}
 }
