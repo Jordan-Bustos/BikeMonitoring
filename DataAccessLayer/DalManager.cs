@@ -1,9 +1,11 @@
 ﻿using EntitiesLayer;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace DataAccessLayer
 {
@@ -16,38 +18,41 @@ namespace DataAccessLayer
 		/// Return the list of trainings save in file choose
 		/// </summary>
 		/// <returns>The list of training</returns>
-		public static List<Training> getTrainings()
+		public static List<Training> GetTrainings()
+		{
+			return Load();
+		}
+
+		/// <summary>
+		/// Load the data file
+		/// </summary>
+		/// <returns>The list of Trainings saved</returns>
+		private static List<Training> Load()
 		{
 			List<Training> trainings = new List<Training>();
 
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 10), 13, 23, 123, 90, 100, 45, "Nuageux"));
-			trainings.Add(new Training(new DateTime(2015, 12, 11), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 11, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 14), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 31), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 05, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 05, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 10), 13, 23, 123, 90, 100, 45, "Nuageux"));
-			trainings.Add(new Training(new DateTime(2015, 12, 11), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015, 12, 12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015,12,12), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
-			trainings.Add(new Training(new DateTime(2015,12,11), 12, 23, 120, 90, 100, 45, "Ce n'était pas facile"));
+			String path = "../../../BikeMonitoringData.xml";
+			if (File.Exists(path))
+			{
+				XmlSerializer reader = new XmlSerializer(typeof(List<Training>));
+				StreamReader file = new StreamReader(path);
+				trainings = (List<Training>)reader.Deserialize(file);
+				file.Close();
+			}
 
 			return trainings;
 		}
-    }
+
+		/// <summary>
+		/// Save the data file
+		/// </summary>
+		public static void Save(IEnumerable<Training> trainings)
+		{
+			String path = "../../../BikeMonitoringData.xml";
+			XmlSerializer writer = new XmlSerializer(typeof(List<Training>));
+			StreamWriter file = new StreamWriter(path);
+			writer.Serialize(file, trainings.ToList());
+			file.Close();
+		}
+	}
 }

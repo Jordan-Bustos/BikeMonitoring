@@ -65,7 +65,7 @@ namespace BusinessLayer
 			if (trainings == null)
 			{
 				// then we read the file to fill in it
-				trainings = DalManager.getTrainings();
+				trainings = DalManager.GetTrainings();
 				Trainings = trainings;	 
 			}				
 
@@ -137,6 +137,36 @@ namespace BusinessLayer
 		public static void DeleteTraining(List<Training> trainings)
 		{
 			Trainings = Trainings.Except(trainings);
+			Save();
+		}
+
+		/// <summary>
+		/// Save the data file
+		/// </summary>
+		private static void Save()
+		{
+			DalManager.Save(Trainings);
+		}
+
+		/// <summary>
+		/// Save a training added or modified
+		/// </summary>
+		/// <param name="training"></param>
+		public static void SaveTraining(Training training)
+		{
+			List<Training> trainings = new List<Training>(Trainings);
+			if (Trainings.Contains(training))
+			{
+				trainings.Remove(training);
+				trainings.Add(training);
+
+			}
+			else
+			{
+				trainings.Add(training);
+			}
+			Trainings = trainings;
+			DalManager.Save(Trainings);
 		}
 	}
 }

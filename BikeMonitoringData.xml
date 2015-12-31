@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTraining xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Training>
+    <Day>2015-12-08T00:00:00</Day>
+    <Distance>12.4</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>100</TrainingTimeMin>
+    <CardiacFrequencyAverage>10</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>10</CardiacFrequencyMax>
+    <Cadence>10</Cadence>
+    <GenComment>zf</GenComment>
+  </Training>
+  <Training>
+    <Day>2014-10-01T00:00:00</Day>
+    <Distance>1213</Distance>
+    <HeightDifference>12</HeightDifference>
+    <TrainingTimeMin>12</TrainingTimeMin>
+    <CardiacFrequencyAverage>124</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>124</CardiacFrequencyMax>
+    <Cadence>124</Cadence>
+    <GenComment>fé</GenComment>
+  </Training>
+</ArrayOfTraining>

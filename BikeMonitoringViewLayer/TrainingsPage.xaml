@@ -1,8 +1,16 @@
 ﻿<Window x:Class="BikeMonitoringViewLayer.TrainingsPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Bike monitoring - Trainings" Closing="Window_Closing" WindowStartupLocation="CenterScreen" SizeToContent="Width">
+        Title="Bike monitoring - Training" Closing="Window_Closing" WindowStartupLocation="CenterScreen" SizeToContent="Width">
     <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Mode">
+                <MenuItem Name="MIWeek" Header="Semaine" Click="MIWeek_Click"  />
+                <MenuItem Name="MIMonth" Header="Mois" Click="MIMonth_Click" />
+                <MenuItem Name="MIYear" Header="Année" Click="MIYear_Click" />
+                <MenuItem Name="MIAll" Header="Années cummulées" Click="MIAll_Click" />
+            </MenuItem>
+        </Menu>
         <ListView Name="lvTrainings" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" SelectionMode="Single">
             <ListView.ContextMenu>
                 <ContextMenu>
@@ -14,9 +22,10 @@
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Jour" DisplayMemberBinding="{Binding DayString}"/>
-                    <GridViewColumn Header="Dénivelé" DisplayMemberBinding="{Binding HeightDifference}"/>
+                    <GridViewColumn Header="Distance" DisplayMemberBinding="{Binding Distance}"/>
                     <GridViewColumn Header="Temps (min)" DisplayMemberBinding="{Binding TrainingTimeMin}"/>
                     <GridViewColumn Header="Km/h" DisplayMemberBinding="{Binding Average}"/>
+                    <GridViewColumn Header="Dénivelé" DisplayMemberBinding="{Binding HeightDifference}"/>
                     <GridViewColumn Header="FC moy." DisplayMemberBinding="{Binding CardiacFrequencyAverage}"/>
                     <GridViewColumn Header="FC max." DisplayMemberBinding="{Binding CardiacFrequencyMax}"/>
                     <GridViewColumn Header="Cadence" DisplayMemberBinding="{Binding Cadence}"/>

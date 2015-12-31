@@ -150,6 +150,12 @@ namespace EntitiesLayer
 		}
 
 		/// <summary>
+		/// Constructor without parameters for the serealisation
+		/// </summary>
+		private Training()
+		{}
+
+		/// <summary>
 		/// Constructor of a Training
 		/// </summary>
 		/// <param name="day">The training day</param>
@@ -170,6 +176,38 @@ namespace EntitiesLayer
 			CardiacFrequencyMax = cardiacFrequencyMax;
 			Cadence = cadence;
 			GenComment = genComment;
+		}
+
+		/// <summary>
+		/// Override equals methode
+		/// </summary>
+		/// <param name="obj"></param>
+		/// <returns></returns>
+		public override bool Equals(object obj)
+		{
+			Training other = null;
+			try
+			{
+				other = obj as Training;
+			}
+			catch (Exception)
+			{
+				return false;
+			}
+
+			if (other != null)
+				return other.Day.Equals(this.Day);
+			else
+				return false;
+		}
+
+		/// <summary>
+		/// Override hashcode methode
+		/// </summary>
+		/// <returns></returns>
+		public override int GetHashCode()
+		{
+			return this.Day.GetHashCode();
 		}
 
     }

@@ -21,6 +21,12 @@ namespace BikeMonitoringViewLayer
 	/// </summary>
 	public partial class TrainingsPage : Window
 	{
+
+		/// <summary>
+		/// The training page
+		/// </summary>
+		private TrainingPage _trainingPage;
+
 		/// <summary>
 		/// Constructor of the trainings page
 		/// </summary>
@@ -47,18 +53,23 @@ namespace BikeMonitoringViewLayer
 		{
 			this.Owner.IsEnabled = true;
 			this.Owner.Visibility = System.Windows.Visibility.Visible;
+			this.Owner.Show();
 		}
 
 		/// <summary>
-		/// When we click on contect menu "Ajouter un entrainement"
+		/// When we click on contect menu "Ajouter un entrainement", go to the training page
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		private void MenuItem_Click_Add_Training(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Ajout d'entrainement");
+			_trainingPage = new TrainingPage();
+			_trainingPage.Owner = this;
+			this.IsEnabled = false;
+			this.Visibility = System.Windows.Visibility.Hidden;
+			_trainingPage.Show();
 		}
-
+		
 		/// <summary>
 		/// When we click on context menu "Modifier"
 		/// </summary>
@@ -66,7 +77,16 @@ namespace BikeMonitoringViewLayer
 		/// <param name="e"></param>
 		private void MenuItem_Click_Modify_Training(object sender, RoutedEventArgs e)
 		{
-			MessageBox.Show("Modification entrainement");
+			if (lvTrainings.SelectedItem != null)
+			{
+				Training training = (lvTrainings.SelectedItem) as Training;
+				lvTrainings.SelectedItem = null;
+				_trainingPage = new TrainingPage(training);
+				_trainingPage.Owner = this;
+				this.IsEnabled = false;
+				this.Visibility = System.Windows.Visibility.Hidden;
+				_trainingPage.Show();
+			}
 		}
 
 		/// <summary>
@@ -90,9 +110,53 @@ namespace BikeMonitoringViewLayer
 		/// <summary>
 		/// Refresh the page
 		/// </summary>
-		private void Refresh()
+		public void Refresh()
 		{
 			LoadPage();
+		}
+
+		/// <summary>
+		/// When we click on the menu item "Semaine"
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void MIWeek_Click(object sender, RoutedEventArgs e)
+		{
+			BusinessManager.Mode = 1;
+			Refresh();
+		}
+
+		/// <summary>
+		/// When we click on the menu item "Mois"
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void MIMonth_Click(object sender, RoutedEventArgs e)
+		{
+			BusinessManager.Mode = 2;
+			Refresh();
+		}
+
+		/// <summary>
+		/// When we click on the menu item "année"
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void MIYear_Click(object sender, RoutedEventArgs e)
+		{
+			BusinessManager.Mode = 3;
+			Refresh();
+		}
+
+		/// <summary>
+		/// When we click on the menu item "Années cumulées"
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void MIAll_Click(object sender, RoutedEventArgs e)
+		{
+			BusinessManager.Mode = 4;
+			Refresh();
 		}
 	}
 }

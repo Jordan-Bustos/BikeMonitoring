@@ -9,6 +9,6 @@ E:\BikeMonitoring\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 E:\BikeMonitoring\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
 E:\BikeMonitoring\DataAccessLayer\bin\Debug\EntitiesLayer.dll
 E:\BikeMonitoring\DataAccessLayer\bin\Debug\EntitiesLayer.pdb
+E:\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 E:\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 E:\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-E:\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
