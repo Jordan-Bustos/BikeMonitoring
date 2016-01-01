@@ -31,7 +31,7 @@ namespace DataAccessLayer
 		{
 			List<Training> trainings = new List<Training>();
 
-			String path = "../../../BikeMonitoringData.xml";
+			String path = "./BikeMonitoringData.xml";
 			if (File.Exists(path))
 			{
 				XmlSerializer reader = new XmlSerializer(typeof(List<Training>));
@@ -48,7 +48,7 @@ namespace DataAccessLayer
 		/// </summary>
 		public static void Save(IEnumerable<Training> trainings)
 		{
-			String path = "../../../BikeMonitoringData.xml";
+			String path = "./BikeMonitoringData.xml";
 			XmlSerializer writer = new XmlSerializer(typeof(List<Training>));
 			StreamWriter file = new StreamWriter(path);
 			writer.Serialize(file, trainings.ToList());

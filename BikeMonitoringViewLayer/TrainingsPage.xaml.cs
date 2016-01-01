@@ -55,6 +55,8 @@ namespace BikeMonitoringViewLayer
 				sPSums.Children.Clear();
 			}
 
+			if (BusinessManager.getTrainings().Count()==0) return;
+
 			sPSums.Children.Add(new Label { Content = "***** TOTAUX *****" });
 
 			//Sums of distance traveled
