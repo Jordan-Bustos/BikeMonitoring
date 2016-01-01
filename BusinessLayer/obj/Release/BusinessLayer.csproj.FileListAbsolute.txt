@@ -1,0 +1,9 @@
+E:\BikeMonitoring\BusinessLayer\bin\Release\BusinessLayer.dll
+E:\BikeMonitoring\BusinessLayer\bin\Release\BusinessLayer.pdb
+E:\BikeMonitoring\BusinessLayer\bin\Release\DataAccessLayer.dll
+E:\BikeMonitoring\BusinessLayer\bin\Release\EntitiesLayer.dll
+E:\BikeMonitoring\BusinessLayer\bin\Release\DataAccessLayer.pdb
+E:\BikeMonitoring\BusinessLayer\bin\Release\EntitiesLayer.pdb
+E:\BikeMonitoring\BusinessLayer\obj\Release\BusinessLayer.csprojResolveAssemblyReference.cache
+E:\BikeMonitoring\BusinessLayer\obj\Release\BusinessLayer.dll
+E:\BikeMonitoring\BusinessLayer\obj\Release\BusinessLayer.pdb

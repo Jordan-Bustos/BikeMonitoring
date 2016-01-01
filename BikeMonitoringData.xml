@@ -1,23 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTraining xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Training>
-    <Day>2015-12-08T00:00:00</Day>
-    <Distance>12.4</Distance>
+    <Day>2016-01-03T00:00:00</Day>
+    <Distance>100</Distance>
     <HeightDifference>10</HeightDifference>
-    <TrainingTimeMin>100</TrainingTimeMin>
-    <CardiacFrequencyAverage>10</CardiacFrequencyAverage>
-    <CardiacFrequencyMax>10</CardiacFrequencyMax>
-    <Cadence>10</Cadence>
-    <GenComment>zf</GenComment>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
   </Training>
   <Training>
-    <Day>2014-10-01T00:00:00</Day>
-    <Distance>1213</Distance>
-    <HeightDifference>12</HeightDifference>
-    <TrainingTimeMin>12</TrainingTimeMin>
-    <CardiacFrequencyAverage>124</CardiacFrequencyAverage>
-    <CardiacFrequencyMax>124</CardiacFrequencyMax>
-    <Cadence>124</Cadence>
-    <GenComment>fé</GenComment>
+    <Day>2016-01-04T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-05T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-06T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-07T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-09T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-10T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-12T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-02T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-17T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-19T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-21T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-22T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-17T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-23T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-24T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-27T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-30T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-11T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>20</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-13T00:00:00</Day>
+    <Distance>100</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>120</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-02T00:00:00</Day>
+    <Distance>200</Distance>
+    <HeightDifference>10</HeightDifference>
+    <TrainingTimeMin>60</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-08T00:00:00</Day>
+    <Distance>10</Distance>
+    <HeightDifference>100</HeightDifference>
+    <TrainingTimeMin>240</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>100</CardiacFrequencyMax>
+    <Cadence>100</Cadence>
+    <GenComment />
+  </Training>
+  <Training>
+    <Day>2016-01-01T00:00:00</Day>
+    <Distance>38.95</Distance>
+    <HeightDifference>178</HeightDifference>
+    <TrainingTimeMin>118</TrainingTimeMin>
+    <CardiacFrequencyAverage>118</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>139</CardiacFrequencyMax>
+    <Cadence>68</Cadence>
+    <GenComment>Les martres de veyre</GenComment>
   </Training>
 </ArrayOfTraining>

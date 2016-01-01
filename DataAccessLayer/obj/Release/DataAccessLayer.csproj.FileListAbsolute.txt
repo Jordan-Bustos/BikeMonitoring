@@ -1,0 +1,7 @@
+E:\BikeMonitoring\DataAccessLayer\bin\Release\DataAccessLayer.dll
+E:\BikeMonitoring\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+E:\BikeMonitoring\DataAccessLayer\bin\Release\EntitiesLayer.dll
+E:\BikeMonitoring\DataAccessLayer\bin\Release\EntitiesLayer.pdb
+E:\BikeMonitoring\DataAccessLayer\obj\Release\DataAccessLayer.csprojResolveAssemblyReference.cache
+E:\BikeMonitoring\DataAccessLayer\obj\Release\DataAccessLayer.dll
+E:\BikeMonitoring\DataAccessLayer\obj\Release\DataAccessLayer.pdb

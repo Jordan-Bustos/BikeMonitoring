@@ -90,7 +90,7 @@ namespace EntitiesLayer
 		/// </summary>
 		public float Average
 		{
-			get { return (Distance * TrainingTimeMin) / 60; }
+			get { return (Distance / (TrainingTimeMin/ 60)); }
 		}
 
 		/// <summary>

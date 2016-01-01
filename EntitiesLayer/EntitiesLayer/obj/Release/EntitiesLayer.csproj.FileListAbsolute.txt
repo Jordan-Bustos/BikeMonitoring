@@ -1,0 +1,4 @@
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Release\EntitiesLayer.dll
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Release\EntitiesLayer.pdb
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Release\EntitiesLayer.dll
+E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Release\EntitiesLayer.pdb

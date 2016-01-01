@@ -42,6 +42,41 @@ namespace BikeMonitoringViewLayer
 		private void LoadPage()
 		{
 			lvTrainings.ItemsSource = BusinessManager.getTrainings();
+			LoadSums();
+		}
+
+		/// <summary>
+		/// Load the sum content
+		/// </summary>
+		private void LoadSums()
+		{
+			if (sPSums.Children.Count > 0)
+			{
+				sPSums.Children.Clear();
+			}
+
+			sPSums.Children.Add(new Label { Content = "***** TOTAUX *****" });
+
+			//Sums of distance traveled
+			StringBuilder sb = new StringBuilder();
+			sb.Append(BusinessManager.getTrainings().Sum(training => training.Distance).ToString()).Append(" km. parcourus");
+			sPSums.Children.Add(new Label { Content = sb.ToString() });
+
+			//Sums of heigth difference 
+			sb = new StringBuilder();
+			sb.Append(BusinessManager.getTrainings().Sum(training => training.HeightDifference).ToString()).Append(" m. de dénivelé franchis");
+			sPSums.Children.Add(new Label { Content = sb.ToString() });
+
+			//Sums of hours of trainings (min => hours)
+			sb = new StringBuilder();
+			sb.Append((BusinessManager.getTrainings().Sum(training => training.TrainingTimeMin) / 60).ToString()).Append(" h. passées sur le vélo");
+			sPSums.Children.Add(new Label { Content = sb.ToString() });
+
+			//Average of speed 
+			sb = new StringBuilder();
+			sb.Append(BusinessManager.getTrainings().Average(training => training.Average).ToString()).Append(" km/h. de moyenne");
+			sPSums.Children.Add(new Label { Content = sb.ToString() });
+			
 		}
 
 		/// <summary>
