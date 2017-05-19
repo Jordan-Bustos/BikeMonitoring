@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\
 BikeMonitoringViewLayer
 none
 false
-DEBUG;TRACE
-E:\BikeMonitoring\BikeMonitoringViewLayer\App.xaml
+CODE_ANALYSIS;DEBUG;TRACE
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\App.xaml
 31886688436
 
 7634543121
-14766510966
+14287077789
 MainWindow.xaml;TrainingPage.xaml;TrainingsPage.xaml;
 
 False

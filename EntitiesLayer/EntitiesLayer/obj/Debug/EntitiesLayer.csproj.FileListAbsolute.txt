@@ -7,3 +7,9 @@ E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.dll
 E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
 E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.dll
 E:\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\EntitiesLayer\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.dll.CodeAnalysisLog.xml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\EntitiesLayer\EntitiesLayer\bin\Debug\EntitiesLayer.dll.lastcodeanalysissucceeded

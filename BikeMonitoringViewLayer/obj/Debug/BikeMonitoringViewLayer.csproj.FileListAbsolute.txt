@@ -40,3 +40,28 @@ E:\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.Prop
 E:\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.csproj.GenerateResource.Cache
 E:\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.exe
 E:\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.exe.config
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.exe
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BusinessLayer.dll
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\EntitiesLayer.dll
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\DataAccessLayer.dll
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BusinessLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\EntitiesLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\DataAccessLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\MainWindow.baml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\TrainingPage.baml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\TrainingsPage.baml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\MainWindow.g.cs
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\TrainingPage.g.cs
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\TrainingsPage.g.cs
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer_MarkupCompile.cache
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.g.resources
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.Properties.Resources.resources
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.exe
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.exe.CodeAnalysisLog.xml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.exe.lastcodeanalysissucceeded
