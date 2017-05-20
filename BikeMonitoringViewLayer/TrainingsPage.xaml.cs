@@ -100,7 +100,7 @@ namespace BikeMonitoringViewLayer
 		/// <param name="e"></param>
 		private void MenuItem_Click_Add_Training(object sender, RoutedEventArgs e)
 		{
-			_trainingPage = new TrainingPage();
+			_trainingPage = new TrainingPage(new Training());
 			_trainingPage.Owner = this;
 			this.IsEnabled = false;
 			this.Visibility = System.Windows.Visibility.Hidden;

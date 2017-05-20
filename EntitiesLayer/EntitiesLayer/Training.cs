@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,8 @@ namespace EntitiesLayer
     ///     One training per day
     ///     Some values of performances
     /// </summary>
-    public class Training
-    {
+    public class Training : INotifyPropertyChanged
+	{
 
 		/// <summary>
 		/// The training day
@@ -90,7 +91,13 @@ namespace EntitiesLayer
 		/// </summary>
 		public float Average
 		{
-			get { return (Distance / (TrainingTimeMin/ 60)); }
+			get
+			{
+				if (TrainingTimeMin != 0)
+					return (Distance / (TrainingTimeMin / 60));
+				else
+					return 0;
+			}
 		}
 
 		/// <summary>
@@ -150,10 +157,17 @@ namespace EntitiesLayer
 		}
 
 		/// <summary>
+		/// To bind the object in view
+		/// </summary>
+		public event PropertyChangedEventHandler PropertyChanged;
+
+		/// <summary>
 		/// Constructor without parameters for the serealisation
 		/// </summary>
-		private Training()
-		{}
+		public Training()
+		{
+			Day = DateTime.Now;
+		}
 
 		/// <summary>
 		/// Constructor of a Training
@@ -166,7 +180,7 @@ namespace EntitiesLayer
 		/// <param name="cardiacFrequencyMax">The maximal cardiac frequency during training</param>
 		/// <param name="cadence">Pedal cadence</param>
 		/// <param name="genComment">General comment of the training</param>
-		public Training (DateTime day, float distance, float heightDifference, float trainingTime, float cardiacFrequencyAverage, float cardiacFrequencyMax, float cadence, String genComment )
+		public Training (DateTime day, float distance, float heightDifference, float trainingTime, float cardiacFrequencyAverage, float cardiacFrequencyMax, float cadence, String genComment ) : base()
 		{
 			Day = day;
 			Distance = distance;

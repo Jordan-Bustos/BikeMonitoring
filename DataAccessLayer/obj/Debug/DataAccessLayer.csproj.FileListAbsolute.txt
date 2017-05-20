@@ -19,5 +19,3 @@ E:\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\DataAccessLayer\bin\Debug\DataAccessLayer.dll.CodeAnalysisLog.xml
-\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\DataAccessLayer\bin\Debug\DataAccessLayer.dll.lastcodeanalysissucceeded

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTraining xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Training>
+    <Day>2017-03-28T00:00:00</Day>
+    <Distance>50</Distance>
+    <HeightDifference>0</HeightDifference>
+    <TrainingTimeMin>120</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>120</CardiacFrequencyMax>
+    <Cadence>45</Cadence>
+    <GenComment>Nouméa - Pierre Vernier</GenComment>
+  </Training>
+  <Training>
+    <Day>2017-02-19T00:00:00</Day>
+    <Distance>200</Distance>
+    <HeightDifference>50</HeightDifference>
+    <TrainingTimeMin>450</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>130</CardiacFrequencyMax>
+    <Cadence>30</Cadence>
+    <GenComment>Nouméa - Mont mou</GenComment>
+  </Training>
+  <Training>
+    <Day>2017-05-19T00:00:00</Day>
+    <Distance>150</Distance>
+    <HeightDifference>55</HeightDifference>
+    <TrainingTimeMin>355</TrainingTimeMin>
+    <CardiacFrequencyAverage>100</CardiacFrequencyAverage>
+    <CardiacFrequencyMax>130</CardiacFrequencyMax>
+    <Cadence>30</Cadence>
+    <GenComment>Nouméa - Mont mou</GenComment>
+  </Training>
+</ArrayOfTraining>

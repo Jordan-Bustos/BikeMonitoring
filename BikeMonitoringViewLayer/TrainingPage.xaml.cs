@@ -37,15 +37,7 @@ namespace BikeMonitoringViewLayer
 		:this()
 		{
 			this.Title = "Bike monitoring - modify training";
-
-			dpDay.SelectedDate = trainning.Day;
-			tbDistance.Text = trainning.Distance.ToString();
-			tbHeightDifference.Text = trainning.HeightDifference.ToString();
-			tbTime.Text = trainning.TrainingTimeMin.ToString();
-			tbCardiacFAv.Text = trainning.CardiacFrequencyAverage.ToString();
-			tbCardiacFMax.Text = trainning.CardiacFrequencyMax.ToString();
-			tbCadence.Text = trainning.Cadence.ToString();
-			tbGenComm.Text = trainning.GenComment.ToString();
+			this.DataContext = trainning;
 		}
 
 		/// <summary>
@@ -66,22 +58,7 @@ namespace BikeMonitoringViewLayer
 		/// </summary>
 		private void Save()
 		{
-			DateTime day;
-			float distance, heightDifference, trainingTime, cardiacFrequencyAverage, cardiacFrequencyMax, cadence;
-			String genComment;
-
-			day = (DateTime)dpDay.SelectedDate;
-			distance = float.Parse(tbDistance.Text);
-			heightDifference = float.Parse(tbHeightDifference.Text);
-			trainingTime = float.Parse(tbTime.Text);
-			cardiacFrequencyAverage = float.Parse(tbCardiacFAv.Text);
-			cardiacFrequencyMax = float.Parse(tbCardiacFMax.Text);
-			cadence = float.Parse(tbCadence.Text);
-			genComment = tbGenComm.Text;
-
-			Training training = new Training(day,distance,heightDifference,trainingTime,cardiacFrequencyAverage, cardiacFrequencyMax, cadence, genComment);
-
-			BusinessManager.SaveTraining(training);
+			BusinessManager.SaveTraining((Training)DataContext);
 		}
 
 
@@ -96,7 +73,7 @@ namespace BikeMonitoringViewLayer
 		}
 
 		/// <summary>
-		/// 
+		/// Validate the modifications
 		/// </summary>
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
