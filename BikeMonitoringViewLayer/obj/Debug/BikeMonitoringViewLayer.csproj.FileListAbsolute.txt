@@ -63,3 +63,5 @@ E:\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.pdb
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.exe
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\obj\Debug\BikeMonitoringViewLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.exe.CodeAnalysisLog.xml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BikeMonitoringViewLayer\bin\Debug\BikeMonitoringViewLayer.exe.lastcodeanalysissucceeded

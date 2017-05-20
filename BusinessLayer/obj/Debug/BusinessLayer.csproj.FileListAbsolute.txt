@@ -25,3 +25,5 @@ E:\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.pdb
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.dll
 \\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BusinessLayer\obj\Debug\BusinessLayer.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BusinessLayer\bin\Debug\BusinessLayer.dll.CodeAnalysisLog.xml
+\\vmware-host\Shared Folders\Documents\GitHub\BikeMonitoring\BusinessLayer\bin\Debug\BusinessLayer.dll.lastcodeanalysissucceeded
